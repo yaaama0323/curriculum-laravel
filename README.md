@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## New paspective
+## New perspective
 
 Laravel 自作
 
@@ -22,22 +22,10 @@ Laravel 自作
 
 レビューの検索、レビュー投稿、レビュー情報更新、削除機能,プロフィール設定ができます
 
-テストアカウント：
-
-メールアドレス→test@gmail.com
-
-パスワード→test1234
-
-
 管理者ユーザー
 
 他ユーザーのレビューを削除できます
 
-テストアカウント：
-
-メールアドレス→admin@gmail.com
-
-パスワード→admin1234
 
 ### 
 
@@ -46,8 +34,8 @@ MAMP/MySQL/PHP/Laravel
 
 ## データベース
 
-データベース名：new_paspective
+データベース名：new_perspective
 
-テーブル
+migrationファイルに格納してありますのでphp artisan migrateにて作成して下さい。
 
-お使いのphpMyAdminに上のデータベースを作り、入っているDB.sqlをインポートしていただければお使いいただけるようになると思います。
+
